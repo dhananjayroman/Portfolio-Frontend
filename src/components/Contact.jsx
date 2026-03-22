@@ -108,7 +108,7 @@ const Contact = () => {
     
     // Optional: Send SMS via backend API
     try {
-      const response = await fetch('http://localhost:3001/send-sms', {
+      const response = await fetch('http://localhost:5000/send-sms', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
